@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/466d5c0f-a0a7-42ab-90cf-bbb9d19827d1/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/league-website",
+    "appService.deploySubpath": "."
+}

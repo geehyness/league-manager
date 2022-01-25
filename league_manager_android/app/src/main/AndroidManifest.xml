@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yukicide.leaguemanager">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UI.playersCRUD.AddPlayerActivity"></activity>
+        <activity android:name=".UI.venuesCRUD.AddVenueActivity" />
+        <activity android:name=".UI.fixtureCRUD.AddFixtureResultsActivity" />
+        <activity android:name=".UI.fixtureCRUD.FixtureOutcomeActivity" />
+        <activity android:name=".UI.teamCRUD.AddTeamActivity" />
+        <activity android:name=".UI.venuesCRUD.ViewVenuesActivity" />
+        <activity android:name=".UI.leagueCRUD.LeagueDashboardActivity" />
+        <activity android:name=".UI.leagueCRUD.SetFavouriteActivity" />
+        <activity android:name=".UI.userManagement.RegisterActivity" />
+        <activity android:name=".UI.userManagement.LoginActivity" />
+        <activity android:name=".UI.fixtureCRUD.AddFixtureActivity" />
+        <activity android:name=".UI.playersCRUD.ViewPlayersActivity" />
+        <activity android:name=".UI.leagueCRUD.LogTableActivity" />
+        <activity android:name=".UI.fixtureCRUD.ViewFixturesActivity" />
+        <activity android:name=".UI.leagueCRUD.AddLeagueActivity" />
+        <activity android:name=".UI.teamCRUD.ViewTeamsActivity" />
+        <activity android:name=".UI.Home.HomeActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
